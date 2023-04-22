@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.3.25)  16 APR 2023 19:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.3.25)  22 APR 2023 19:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1375,6 +1375,9 @@ LaTeX Warning: Reference `LastPage' on page v undefined on input line 169.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\uppercase' on input line 2.
 
+
+LaTeX Warning: Citation `toet1989merging' on page 1 undefined on input line 5.
+
 ) (./chapters/02BackgroundInformationRelatedWork.tex [1
 
 ] [2
@@ -1454,18 +1457,18 @@ Package rerunfilecheck Info: Checksums for `aytekin-erdogan-msc-thesis.out':
 (rerunfilecheck)             After:  A6C1119874E8E68C8A4F23DCE5F04AF4;3463.
  ) 
 Here is how much of TeX's memory you used:
- 34846 strings out of 480171
- 671204 string characters out of 5894489
+ 34849 strings out of 480171
+ 671232 string characters out of 5894489
  998036 words of memory out of 5000000
- 52119 multiletter control sequences out of 15000+600000
- 488240 words of font info for 54 fonts, out of 8000000 for 9000
+ 52120 multiletter control sequences out of 15000+600000
+ 491088 words of font info for 56 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  99i,6n,117p,893b,1145s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on aytekin-erdogan-msc-thesis.pdf (29 pages, 48902 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on aytekin-erdogan-msc-thesis.pdf (29 pages, 58992 bytes).
 PDF statistics:
- 177 PDF objects out of 1000 (max. 8388607)
- 140 compressed objects within 2 object streams
+ 182 PDF objects out of 1000 (max. 8388607)
+ 143 compressed objects within 2 object streams
  51 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
