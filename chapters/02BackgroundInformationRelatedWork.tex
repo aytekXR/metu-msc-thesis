@@ -1,6 +1,10 @@
 \chapter{Related Work}
 \label{chp:02bgwork}
 
-In this chapter, related studies are given in detail. 
+Considering the available VIF methods, we can classify the methods into two parts as traditional methods, highly used before the era of AI, and learning based methods. Regardless of the classification, all methods consist of three main parts as image feature extraction, fusion of multiple images' features and reconstruction of the image from fused features. In feature extraction part, features from multiple images are extracted. In fusion part of the algorithm, extracted features are compared and complementary features are tried to be inserted into single feature map or set. In the Reconstruction part, from the fused set of features,  image is reconstructed.
+All related studies try to improve one or more part of the this process.
+
+For the traditional algorithms, there are competitive methods but still they suffer from several shortcomings such as handcrafted steps, time complexity and generalizability. To be more specific sparse representation (SR) based methods such as \cite{bin2016efficient} and \cite{zhang2013dictionary} requires dictionary learning which increase time complexity quadratically and they includes handcrafted steps. Multi-scale transformation (MST) based methods such as \cite{hu2017adaptive} and \cite{hu2017adaptive}, low-rank representation (LRR) based methods such as \cite[text]{liu2012robust}, saliency-based methods such as \cite[text]{liu2017infrared} suffer from generalizability. In summary, these studies are frequently utilized to capture various characteristics of images at different scales. The extracted features are merged together using a suitable technique, and the final combined image is reconstructed by reversing the multi-scale process. It's clear that the success of these fusion algorithms heavily relies on the quality of the feature extraction method applied.
+
 
 \section{Related Work Section I}
