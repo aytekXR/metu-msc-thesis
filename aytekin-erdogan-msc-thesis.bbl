@@ -1,0 +1,30 @@
+\begin{thebibliography}{1}
+
+\bibitem{toet1989merging}
+A.~Toet, L.~J. Van~Ruyven, and J.~M. Valeton, ``Merging thermal and visual
+  images by a contrast pyramid,'' {\em Optical engineering}, vol.~28, no.~7,
+  pp.~789--792, 1989.
+
+\bibitem{bin2016efficient}
+Y.~Bin, Y.~Chao, and H.~Guoyu, ``Efficient image fusion with approximate sparse
+  representation,'' {\em International Journal of Wavelets, Multiresolution and
+  Information Processing}, vol.~14, no.~04, p.~1650024, 2016.
+
+\bibitem{zhang2013dictionary}
+Q.~Zhang, Y.~Fu, H.~Li, and J.~Zou, ``Dictionary learning method for joint
+  sparse representation-based image fusion,'' {\em Optical Engineering},
+  vol.~52, no.~5, pp.~057006--057006, 2013.
+
+\bibitem{hu2017adaptive}
+H.-M. Hu, J.~Wu, B.~Li, Q.~Guo, and J.~Zheng, ``An adaptive fusion algorithm
+  for visible and infrared videos based on entropy and the cumulative
+  distribution of gray levels,'' {\em IEEE Transactions on Multimedia},
+  vol.~19, no.~12, pp.~2706--2719, 2017.
+
+\bibitem{he2017infrared}
+K.~He, D.~Zhou, X.~Zhang, R.~Nie, Q.~Wang, and X.~Jin, ``Infrared and visible
+  image fusion based on target extraction in the nonsubsampled contourlet
+  transform domain,'' {\em Journal of Applied Remote Sensing}, vol.~11, no.~1,
+  pp.~015011--015011, 2017.
+
+\end{thebibliography}
