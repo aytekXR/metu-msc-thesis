@@ -1,9 +1,14 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{toet1989merging}
 A.~Toet, L.~J. Van~Ruyven, and J.~M. Valeton, ``Merging thermal and visual
   images by a contrast pyramid,'' {\em Optical engineering}, vol.~28, no.~7,
   pp.~789--792, 1989.
+
+\bibitem{liu2017infrared}
+C.~Liu, Y.~Qi, and W.~Ding, ``Infrared and visible image fusion method based on
+  saliency detection in sparse domain,'' {\em Infrared Physics \& Technology},
+  vol.~83, pp.~94--102, 2017.
 
 \bibitem{bin2016efficient}
 Y.~Bin, Y.~Chao, and H.~Guoyu, ``Efficient image fusion with approximate sparse
@@ -26,5 +31,47 @@ K.~He, D.~Zhou, X.~Zhang, R.~Nie, Q.~Wang, and X.~Jin, ``Infrared and visible
   image fusion based on target extraction in the nonsubsampled contourlet
   transform domain,'' {\em Journal of Applied Remote Sensing}, vol.~11, no.~1,
   pp.~015011--015011, 2017.
+
+\bibitem{liu2018infrared}
+Y.~Liu, X.~Chen, J.~Cheng, H.~Peng, and Z.~Wang, ``Infrared and visible image
+  fusion with convolutional neural networks,'' {\em International Journal of
+  Wavelets, Multiresolution and Information Processing}, vol.~16, no.~03,
+  p.~1850018, 2018.
+
+\bibitem{an2020infrared}
+W.-B. An and H.-M. Wang, ``Infrared and visible image fusion with supervised
+  convolutional neural network,'' {\em Optik}, vol.~219, p.~165120, 2020.
+
+\bibitem{li2019infrared}
+H.~Li, X.-j. Wu, and T.~S. Durrani, ``Infrared and visible image fusion with
+  resnet and zero-phase component analysis,'' {\em Infrared Physics \&
+  Technology}, vol.~102, p.~103039, 2019.
+
+\bibitem{li2021infrared}
+G.~Li, Y.~Lin, and X.~Qu, ``An infrared and visible image fusion method based
+  on multi-scale transformation and norm optimization,'' {\em Information
+  Fusion}, vol.~71, pp.~109--129, 2021.
+
+\bibitem{li2018infrared}
+H.~Li, X.-J. Wu, and J.~Kittler, ``Infrared and visible image fusion using a
+  deep learning framework,'' in {\em 2018 24th international conference on
+  pattern recognition (ICPR)}, pp.~2705--2710, IEEE, 2018.
+
+\bibitem{ren2018infrared}
+X.~Ren, F.~Meng, T.~Hu, Z.~Liu, and C.~Wang, ``Infrared-visible image fusion
+  based on convolutional neural networks (cnn),'' in {\em Intelligence Science
+  and Big Data Engineering: 8th International Conference, IScIDE 2018, Lanzhou,
+  China, August 18--19, 2018, Revised Selected Papers 8}, pp.~301--307,
+  Springer, 2018.
+
+\bibitem{yang2021vmdm}
+Y.~Yang, J.-X. Liu, S.-Y. Huang, H.-Y. Lu, and W.-Y. Wen, ``Vmdm-fusion: a
+  saliency feature representation method for infrared and visible image
+  fusion,'' {\em Signal, Image and Video Processing}, pp.~1--9, 2021.
+
+\bibitem{li2020unsupervised}
+Y.~Li, J.~Wang, Z.~Miao, and J.~Wang, ``Unsupervised densely attention network
+  for infrared and visible image fusion,'' {\em Multimedia Tools and
+  Applications}, vol.~79, no.~45-46, pp.~34685--34696, 2020.
 
 \end{thebibliography}
