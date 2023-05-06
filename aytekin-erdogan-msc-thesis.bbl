@@ -74,4 +74,24 @@ Y.~Li, J.~Wang, Z.~Miao, and J.~Wang, ``Unsupervised densely attention network
   for infrared and visible image fusion,'' {\em Multimedia Tools and
   Applications}, vol.~79, no.~45-46, pp.~34685--34696, 2020.
 
+\bibitem{liu2019infrared}
+Y.~Liu, L.~Dong, Y.~Ji, and W.~Xu, ``Infrared and visible image fusion through
+  details preservation,'' {\em Sensors}, vol.~19, no.~20, p.~4556, 2019.
+
+\bibitem{hou2020vif}
+R.~Hou, D.~Zhou, R.~Nie, D.~Liu, L.~Xiong, Y.~Guo, and C.~Yu, ``Vif-net: an
+  unsupervised framework for infrared and visible image fusion,'' {\em IEEE
+  Transactions on Computational Imaging}, vol.~6, pp.~640--651, 2020.
+
+\bibitem{xu2022cufd}
+H.~Xu, M.~Gong, X.~Tian, J.~Huang, and J.~Ma, ``Cufd: An encoder--decoder
+  network for visible and infrared image fusion based on common and unique
+  feature decomposition,'' {\em Computer Vision and Image Understanding},
+  vol.~218, p.~103407, 2022.
+
+\bibitem{mustafa2020infrared}
+H.~T. Mustafa, J.~Yang, H.~Mustafa, and M.~Zareapoor, ``Infrared and visible
+  image fusion based on dilated residual attention network,'' {\em Optik},
+  vol.~224, p.~165409, 2020.
+
 \end{thebibliography}
