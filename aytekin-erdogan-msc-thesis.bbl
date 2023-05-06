@@ -94,4 +94,28 @@ H.~T. Mustafa, J.~Yang, H.~Mustafa, and M.~Zareapoor, ``Infrared and visible
   image fusion based on dilated residual attention network,'' {\em Optik},
   vol.~224, p.~165409, 2020.
 
+\bibitem{he2016deep}
+K.~He, X.~Zhang, S.~Ren, and J.~Sun, ``Deep residual learning for image
+  recognition,'' in {\em Proceedings of the IEEE conference on computer vision
+  and pattern recognition}, pp.~770--778, 2016.
+
+\bibitem{huang2017densely}
+G.~Huang, Z.~Liu, L.~Van Der~Maaten, and K.~Q. Weinberger, ``Densely connected
+  convolutional networks,'' in {\em Proceedings of the IEEE conference on
+  computer vision and pattern recognition}, pp.~4700--4708, 2017.
+
+\bibitem{mnih2014recurrent}
+V.~Mnih, N.~Heess, A.~Graves, and K.~Kavukcuoglu, ``Recurrent models of visual
+  attention,'' in {\em Advances in neural information processing systems},
+  pp.~2204--2212, 2014.
+
+\bibitem{hinton2006dimensionality}
+G.~E. Hinton and R.~R. Salakhutdinov, ``Dimensionality reduction by learning an
+  invariant mapping,'' {\em arXiv preprint arXiv:0704.2550}, 2006.
+
+\bibitem{zoph2017neural}
+B.~Zoph and Q.~V. Le, ``Neural architecture search with reinforcement
+  learning,'' in {\em International Conference on Learning Representations},
+  2017.
+
 \end{thebibliography}
