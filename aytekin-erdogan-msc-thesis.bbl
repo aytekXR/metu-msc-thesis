@@ -118,4 +118,76 @@ B.~Zoph and Q.~V. Le, ``Neural architecture search with reinforcement
   learning,'' in {\em International Conference on Learning Representations},
   2017.
 
+\bibitem{hinton2006reducing}
+G.~E. Hinton and R.~R. Salakhutdinov, ``Reducing the dimensionality of data
+  with neural networks,'' {\em science}, vol.~313, no.~5786, pp.~504--507,
+  2006.
+
+\bibitem{lin2014microsoft}
+T.-Y. Lin, M.~Maire, S.~Belongie, J.~Hays, P.~Perona, D.~Ramanan,
+  P.~Doll{\'a}r, and C.~L. Zitnick, ``Microsoft coco: Common objects in
+  context,'' in {\em Computer Vision--ECCV 2014: 13th European Conference,
+  Zurich, Switzerland, September 6-12, 2014, Proceedings, Part V 13},
+  pp.~740--755, Springer, 2014.
+
+\bibitem{raza2020pfaf}
+A.~Raza, H.~Huo, and T.~Fang, ``Pfaf-net: Pyramid feature network for
+  multimodal fusion,'' {\em IEEE Sensors Letters}, vol.~4, no.~12, pp.~1--4,
+  2020.
+
+\bibitem{fu2021dual}
+Y.~Fu and X.-J. Wu, ``A dual-branch network for infrared and visible image
+  fusion,'' in {\em 2020 25th International Conference on Pattern Recognition
+  (ICPR)}, pp.~10675--10680, IEEE, 2021.
+
+\bibitem{jian2020sedrfuse}
+L.~Jian, X.~Yang, Z.~Liu, G.~Jeon, M.~Gao, and D.~Chisholm, ``Sedrfuse: A
+  symmetric encoder--decoder with residual block network for infrared and
+  visible image fusion,'' {\em IEEE Transactions on Instrumentation and
+  Measurement}, vol.~70, pp.~1--15, 2020.
+
+\bibitem{wang2022res2fusion}
+Z.~Wang, Y.~Wu, J.~Wang, J.~Xu, and W.~Shao, ``Res2fusion: Infrared and visible
+  image fusion based on dense res2net and double nonlocal attention models,''
+  {\em IEEE Transactions on Instrumentation and Measurement}, vol.~71,
+  pp.~1--12, 2022.
+
+\bibitem{zhao2021efficient}
+Z.~Zhao, S.~Xu, J.~Zhang, C.~Liang, C.~Zhang, and J.~Liu, ``Efficient and
+  model-based infrared and visible image fusion via algorithm unrolling,'' {\em
+  IEEE Transactions on Circuits and Systems for Video Technology}, vol.~32,
+  no.~3, pp.~1186--1196, 2021.
+
+\bibitem{zhao2021self}
+F.~Zhao, W.~Zhao, L.~Yao, and Y.~Liu, ``Self-supervised feature adaption for
+  infrared and visible image fusion,'' {\em Information Fusion}, vol.~76,
+  pp.~189--203, 2021.
+
+\bibitem{liu2021smoa}
+J.~Liu, Y.~Wu, Z.~Huang, R.~Liu, and X.~Fan, ``Smoa: Searching a
+  modality-oriented architecture for infrared and visible image fusion,'' {\em
+  IEEE Signal Processing Letters}, vol.~28, pp.~1818--1822, 2021.
+
+\bibitem{pan2021densenetfuse}
+Y.~Pan, D.~Pi, I.~A. Khan, Z.~U. Khan, J.~Chen, and H.~Meng, ``Densenetfuse: A
+  study of deep unsupervised densenet to infrared and visual image fusion,''
+  {\em Journal of Ambient Intelligence and Humanized Computing}, pp.~1--13,
+  2021.
+
+\bibitem{wang2021unfusion}
+Z.~Wang, J.~Wang, Y.~Wu, J.~Xu, and X.~Zhang, ``Unfusion: A unified multi-scale
+  densely connected network for infrared and visible image fusion,'' {\em IEEE
+  Transactions on Circuits and Systems for Video Technology}, vol.~32, no.~6,
+  pp.~3360--3374, 2021.
+
+\bibitem{li2022infrared}
+Z.~Li, H.~Wu, L.~Cheng, S.~Luo, and M.~Chen, ``Infrared and visible fusion
+  imaging via double-layer fusion denoising neural network,'' {\em Digital
+  Signal Processing}, vol.~123, p.~103433, 2022.
+
+\bibitem{peng2022mfdetection}
+Y.~Peng, G.~Liu, X.~Xu, D.~P. Bavirisetti, X.~Gu, and X.~Zhang, ``Mfdetection:
+  A highly generalized object detection network unified with multilevel
+  heterogeneous image fusion,'' {\em Optik}, vol.~266, p.~169599, 2022.
+
 \end{thebibliography}
