@@ -190,4 +190,14 @@ Y.~Peng, G.~Liu, X.~Xu, D.~P. Bavirisetti, X.~Gu, and X.~Zhang, ``Mfdetection:
   A highly generalized object detection network unified with multilevel
   heterogeneous image fusion,'' {\em Optik}, vol.~266, p.~169599, 2022.
 
+\bibitem{goodfellow2014generative}
+I.~Goodfellow, J.~Pouget-Abadie, M.~Mirza, B.~Xu, D.~Warde-Farley, S.~Ozair,
+  A.~Courville, and Y.~Bengio, ``Generative adversarial networks,'' in {\em
+  Advances in neural information processing systems}, pp.~2672--2680, 2014.
+
+\bibitem{ma2019fusiongan}
+J.~Ma, W.~Yu, P.~Liang, C.~Li, and J.~Jiang, ``Fusiongan: A generative
+  adversarial network for infrared and visible image fusion,'' {\em Information
+  fusion}, vol.~48, pp.~11--26, 2019.
+
 \end{thebibliography}

@@ -54,4 +54,32 @@ In the context of infrared visual image fusion, the autoencoder technique is lev
 
 There are still open research questions for this part since rgb and infrared images are different in structure and only rgb image is used in autoencoder's training. There are studies that focuses on this difference. IVFENet \cite{zhao2021self}, an encoder and two decoders are used in the pretraining stage to alleviate the vital information loss. Liu et al. \cite{liu2021smoa} use two encoders and one unified decoder, which utilizes a NAS technique for the model. Measures for performance increase in Section \ref{subsec:unsupervised} are also used with autoencoder based models such as dense connections \cite{pan2021densenetfuse, wang2021unfusion, li2022infrared}, attention mechanism \cite{wang2021unfusion}, multiscale features \cite{li2019infrared,wang2021unfusion}, multi-level features \cite{peng2022mfdetection}.
 
+\section{GAN Based Deep Learning Algorithms}
+
+Since its introduction by Goodfellow et al. \cite{goodfellow2014generative} in 2014, General Adversarial Networks, also known as GAN, have found a wide range of applications. In 2019, Ma et al. \cite{ma2019fusiongan} introduced GAN to the image fusion task, after which many GAN-based image fusion methods have been proposed. Typically, these methods are unsupervised and utilize various combinations of one-generator-to-one-discriminator, one-generator-to-more-discriminators, and two-generators-to-two-discriminators. Additionally, some supervised versions of GAN-based image fusion methods have been developed.
+
+\subsection{Unsupervised GANs}
+
+Most of the GAN-based VIF methods are unsupervised methods, which means that they do not require labeled data for training. Instead, the training process is driven by a loss function that measures the difference between the fused image and the source images. This loss function typically contains several terms that reflect the difference from different perspectives. For example, one term may measure the pixel-wise difference between the fused image and the source images, while another term may measure the structural similarity between the fused image and the source images.
+
+In addition to the loss function, evaluation metrics are also used to assess the quality of the fused image. These metrics provide quantitative measures of various aspects of the fused image, such as its spatial frequency, contrast, and sharpness. Some commonly used evaluation metrics for VIF include mutual information, entropy, edge preservation, and spatial frequency. The choice of evaluation metrics can depend on the specific application of the VIF method.
+
+Overall, the unsupervised nature of GAN-based VIF methods allows them to learn from data without the need for manual labeling, making them flexible and adaptable to a wide range of applications. The use of loss functions and evaluation metrics further enhances the performance and effectiveness of these methods, enabling them to produce high-quality fused images that preserve the most important features of the source images.
+
+\paragraph{One Generator to One Discriminator}
+
+Ma et al. \cite{ma2019fusiongan} introduced the FusionGAN as the pioneer GAN-based VIF method. The method involves a generator that produces a fused image with emphasized targets, while the discriminator's role is to enforce the fused image to contain more textural details, similar to those found in visible images. The authors evaluated the effectiveness of FusionGAN on several datasets, including multi-spectral, hyperspectral, and infrared images. The results showed that FusionGAN outperformed existing state-of-the-art  (SoTA) VIF methods in terms of both visual quality and quantitative metrics such as peak signal-to-noise ratio (PSNR) and structural similarity index (SSIM). Moreover, the proposed method is robust to changes in fusion rules, fusion strategies, and image sizes. These promising results demonstrate the potential of GAN-based approaches for improving VIF performance in various imaging scenarios.
+
+As in Section \ref{subsec:unsupervised} some measures have also
+been used to improve fusion performance. For example, Xu
+et al. [68] utilized a local binary pattern loss for training. Xu
+et al. [65] utilized residual blocks and skip connections in
+the generator. Fu et al. [100] proposed to utilize dense blocks
+to allow the generator to learn more information. They not
+only concatenate the features of shallow layers and deeper
+layers but also insert the visible image at each layer of the
+generator to help the network learn visible information. Furthermore, other measures, such as attention mechanisms
+
+
+
 
