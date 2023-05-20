@@ -200,4 +200,25 @@ J.~Ma, W.~Yu, P.~Liang, C.~Li, and J.~Jiang, ``Fusiongan: A generative
   adversarial network for infrared and visible image fusion,'' {\em Information
   fusion}, vol.~48, pp.~11--26, 2019.
 
+\bibitem{xu2020lbp}
+J.~Xu, X.~Shi, S.~Qin, K.~Lu, H.~Wang, and J.~Ma, ``Lbp-began: A generative
+  adversarial network architecture for infrared and visible image fusion,''
+  {\em Infrared Physics \& Technology}, vol.~104, p.~103144, 2020.
+
+\bibitem{xu2020infrared}
+D.~Xu, Y.~Wang, S.~Xu, K.~Zhu, N.~Zhang, and X.~Zhang, ``Infrared and visible
+  image fusion with a generative adversarial network and a residual network,''
+  {\em Applied Sciences}, vol.~10, no.~2, p.~554, 2020.
+
+\bibitem{fu2021image}
+Y.~Fu, X.-J. Wu, and T.~Durrani, ``Image fusion based on generative adversarial
+  network consistent with perception,'' {\em Information Fusion}, vol.~72,
+  pp.~110--125, 2021.
+
+\bibitem{wang2021new}
+J.~Wang, Y.~Li, and Z.~Miao, ``A new infrared and visible image fusion method
+  based on generative adversarial networks and attention mechanism,'' in {\em
+  2021 The 4th International Conference on Image and Graphics Processing},
+  pp.~109--119, 2021.
+
 \end{thebibliography}
