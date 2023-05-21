@@ -221,4 +221,21 @@ J.~Wang, Y.~Li, and Z.~Miao, ``A new infrared and visible image fusion method
   2021 The 4th International Conference on Image and Graphics Processing},
   pp.~109--119, 2021.
 
+\bibitem{ma2020ganmcc}
+J.~Ma, H.~Zhang, Z.~Shao, P.~Liang, and H.~Xu, ``Ganmcc: A generative
+  adversarial network with multiclassification constraints for infrared and
+  visible image fusion,'' {\em IEEE Transactions on Instrumentation and
+  Measurement}, vol.~70, pp.~1--14, 2020.
+
+\bibitem{liu2021learning}
+J.~Liu, X.~Fan, J.~Jiang, R.~Liu, and Z.~Luo, ``Learning a deep multi-scale
+  feature ensemble and an edge-attention guidance for image fusion,'' {\em IEEE
+  Transactions on Circuits and Systems for Video Technology}, vol.~32, no.~1,
+  pp.~105--119, 2021.
+
+\bibitem{liao2020fusion}
+B.~Liao, Y.~Du, and X.~Yin, ``Fusion of infrared-visible images in ue-iot for
+  fault point detection based on gan,'' {\em IEEE Access}, vol.~8,
+  pp.~79754--79763, 2020.
+
 \end{thebibliography}
