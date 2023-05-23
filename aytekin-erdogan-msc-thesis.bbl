@@ -238,4 +238,15 @@ B.~Liao, Y.~Du, and X.~Yin, ``Fusion of infrared-visible images in ue-iot for
   fault point detection based on gan,'' {\em IEEE Access}, vol.~8,
   pp.~79754--79763, 2020.
 
+\bibitem{xu2019learning}
+H.~Xu, P.~Liang, W.~Yu, J.~Jiang, and J.~Ma, ``Learning a generative model for
+  fusing infrared and visible images via conditional generative adversarial
+  network with dual discriminators.,'' in {\em IJCAI}, pp.~3954--3960, 2019.
+
+\bibitem{ma2020ddcgan}
+J.~Ma, H.~Xu, J.~Jiang, X.~Mei, and X.-P. Zhang, ``Ddcgan: A dual-discriminator
+  conditional generative adversarial network for multi-resolution image
+  fusion,'' {\em IEEE Transactions on Image Processing}, vol.~29,
+  pp.~4980--4995, 2020.
+
 \end{thebibliography}
