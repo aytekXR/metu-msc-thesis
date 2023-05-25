@@ -249,4 +249,30 @@ J.~Ma, H.~Xu, J.~Jiang, X.~Mei, and X.-P. Zhang, ``Ddcgan: A dual-discriminator
   fusion,'' {\em IEEE Transactions on Image Processing}, vol.~29,
   pp.~4980--4995, 2020.
 
+\bibitem{li2020infrared}
+J.~Li, H.~Huo, K.~Liu, and C.~Li, ``Infrared and visible image fusion using
+  dual discriminators generative adversarial networks with wasserstein
+  distance,'' {\em Information Sciences}, vol.~529, pp.~28--41, 2020.
+
+\bibitem{li2020multigrained}
+J.~Li, H.~Huo, C.~Li, R.~Wang, C.~Sui, and Z.~Liu, ``Multigrained attention
+  network for infrared and visible image fusion,'' {\em IEEE Transactions on
+  Instrumentation and Measurement}, vol.~70, pp.~1--12, 2020.
+
+\bibitem{li2020attentionfgan}
+J.~Li, H.~Huo, C.~Li, R.~Wang, and Q.~Feng, ``Attentionfgan: Infrared and
+  visible image fusion using attention-based generative adversarial networks,''
+  {\em IEEE Transactions on Multimedia}, vol.~23, pp.~1383--1396, 2020.
+
+\bibitem{zhang2021gan}
+H.~Zhang, J.~Yuan, X.~Tian, and J.~Ma, ``Gan-fm: Infrared and visible image
+  fusion using gan with full-scale skip connection and dual markovian
+  discriminators,'' {\em IEEE Transactions on Computational Imaging}, vol.~7,
+  pp.~1134--1147, 2021.
+
+\bibitem{song2022triple}
+A.~Song, H.~Duan, H.~Pei, and L.~Ding, ``Triple-discriminator generative
+  adversarial network for infrared and visible image fusion,'' {\em
+  Neurocomputing}, vol.~483, pp.~183--194, 2022.
+
 \end{thebibliography}
