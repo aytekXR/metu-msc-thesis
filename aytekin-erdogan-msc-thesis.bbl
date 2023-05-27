@@ -275,4 +275,74 @@ A.~Song, H.~Duan, H.~Pei, and L.~Ding, ``Triple-discriminator generative
   adversarial network for infrared and visible image fusion,'' {\em
   Neurocomputing}, vol.~483, pp.~183--194, 2022.
 
+\bibitem{dosovitskiy2020image}
+A.~Dosovitskiy, L.~Beyer, A.~Kolesnikov, D.~Weissenborn, X.~Zhai,
+  T.~Unterthiner, M.~Dehghani, M.~Minderer, G.~Heigold, S.~Gelly, {\em et~al.},
+  ``An image is worth 16x16 words: Transformers for image recognition at
+  scale,'' {\em arXiv preprint arXiv:2010.11929}, 2020.
+
+\bibitem{liu2021swin}
+Z.~Liu, Y.~Lin, Y.~Cao, H.~Hu, Y.~Wei, Z.~Zhang, S.~Lin, and B.~Guo, ``Swin
+  transformer: Hierarchical vision transformer using shifted windows,'' in {\em
+  Proceedings of the IEEE/CVF international conference on computer vision},
+  pp.~10012--10022, 2021.
+
+\bibitem{liu2022mfst}
+X.~Liu, H.~Gao, Q.~Miao, Y.~Xi, Y.~Ai, and D.~Gao, ``Mfst: Multi-modal feature
+  self-adaptive transformer for infrared and visible image fusion,'' {\em
+  Remote Sensing}, vol.~14, no.~13, p.~3233, 2022.
+
+\bibitem{zhao2021dndt}
+H.~Zhao and R.~Nie, ``Dndt: Infrared and visible image fusion via densenet and
+  dual-transformer,'' in {\em 2021 International Conference on Information
+  Technology and Biomedical Engineering (ICITBE)}, pp.~71--75, IEEE, 2021.
+
+\bibitem{rao2023tgfuse}
+D.~Rao, T.~Xu, and X.-J. Wu, ``Tgfuse: An infrared and visible image fusion
+  approach based on transformer and generative adversarial network,'' {\em IEEE
+  Transactions on Image Processing}, 2023.
+
+\bibitem{li2022cgtf}
+J.~Li, J.~Zhu, C.~Li, X.~Chen, and B.~Yang, ``Cgtf: Convolution-guided
+  transformer for infrared and visible image fusion,'' {\em IEEE Transactions
+  on Instrumentation and Measurement}, vol.~71, pp.~1--14, 2022.
+
+\bibitem{tang2022ydtr}
+W.~Tang, F.~He, and Y.~Liu, ``Ydtr: infrared and visible image fusion via
+  y-shape dynamic transformer,'' {\em IEEE Transactions on Multimedia}, 2022.
+
+\bibitem{wang2022swinfuse}
+Z.~Wang, Y.~Chen, W.~Shao, H.~Li, and L.~Zhang, ``Swinfuse: A residual swin
+  transformer fusion network for infrared and visible images,'' {\em IEEE
+  Transactions on Instrumentation and Measurement}, vol.~71, pp.~1--12, 2022.
+
+\bibitem{yang2023dglt}
+X.~Yang, H.~Huo, R.~Wang, C.~Li, X.~Liu, and J.~Li, ``Dglt-fusion: A decoupled
+  global--local infrared and visible image fusion transformer,'' {\em Infrared
+  Physics \& Technology}, vol.~128, p.~104522, 2023.
+
+\bibitem{tang2023tccfusion}
+W.~Tang, F.~He, and Y.~Liu, ``Tccfusion: An infrared and visible image fusion
+  method based on transformer and cross correlation,'' {\em Pattern
+  Recognition}, p.~109295, 2023.
+
+\bibitem{vs2022image}
+V.~Vs, J.~M.~J. Valanarasu, P.~Oza, and V.~M. Patel, ``Image fusion
+  transformer,'' in {\em 2022 IEEE International Conference on Image Processing
+  (ICIP)}, pp.~3566--3570, IEEE, 2022.
+
+\bibitem{fu2021ppt}
+Y.~Fu, T.~Xu, X.~Wu, and J.~Kittler, ``Ppt fusion: Pyramid patch transformerfor
+  a case study in image fusion,'' {\em arXiv preprint arXiv:2107.13967}, 2021.
+
+\bibitem{ma2022swinfusion}
+J.~Ma, L.~Tang, F.~Fan, J.~Huang, X.~Mei, and Y.~Ma, ``Swinfusion: Cross-domain
+  long-range learning for general image fusion via swin transformer,'' {\em
+  IEEE/CAA Journal of Automatica Sinica}, vol.~9, no.~7, pp.~1200--1217, 2022.
+
+\bibitem{qu2022transfuse}
+L.~Qu, S.~Liu, M.~Wang, S.~Li, S.~Yin, Q.~Qiao, and Z.~Song, ``Transfuse: A
+  unified transformer-based image fusion framework using self-supervised
+  learning,'' {\em arXiv preprint arXiv:2201.07451}, 2022.
+
 \end{thebibliography}
