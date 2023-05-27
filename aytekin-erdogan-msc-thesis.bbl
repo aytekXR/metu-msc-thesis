@@ -275,6 +275,20 @@ A.~Song, H.~Duan, H.~Pei, and L.~Ding, ``Triple-discriminator generative
   adversarial network for infrared and visible image fusion,'' {\em
   Neurocomputing}, vol.~483, pp.~183--194, 2022.
 
+\bibitem{lebedev2019multisensor}
+M.~Lebedev, D.~Komarov, O.~Vygolov, and Y.~V. Vizilter, ``Multisensor image
+  fusion based on generative adversarial networks,'' in {\em Image and Signal
+  Processing for Remote Sensing XXV}, vol.~11155, pp.~565--574, SPIE, 2019.
+
+\bibitem{li2019coupled}
+Q.~Li, L.~Lu, Z.~Li, W.~Wu, Z.~Liu, G.~Jeon, and X.~Yang, ``Coupled gan with
+  relativistic discriminators for infrared and visible images fusion,'' {\em
+  IEEE Sensors Journal}, vol.~21, no.~6, pp.~7458--7467, 2019.
+
+\bibitem{li2013image}
+S.~Li, X.~Kang, and J.~Hu, ``Image fusion with guided filtering,'' {\em IEEE
+  Transactions on Image processing}, vol.~22, no.~7, pp.~2864--2875, 2013.
+
 \bibitem{dosovitskiy2020image}
 A.~Dosovitskiy, L.~Beyer, A.~Kolesnikov, D.~Weissenborn, X.~Zhai,
   T.~Unterthiner, M.~Dehghani, M.~Minderer, G.~Heigold, S.~Gelly, {\em et~al.},

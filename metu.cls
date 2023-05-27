@@ -520,7 +520,7 @@ original to this work.}
 }
 \def\endthebibliography{\endlist}
 
-%\let\endthebibliography=\endlist
+\let\endthebibliography=\endlist
 
 \newif\if@restonecol
 \def\theindex{\@restonecoltrue\if@twocolumn\@restonecolfalse\fi
