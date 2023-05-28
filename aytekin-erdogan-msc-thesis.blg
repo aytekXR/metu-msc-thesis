@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: aytekin-erdogan-msc-thesis.aux
+The style file: ieeetr.bst
+Illegal, another \bibdata command---line 243 of file aytekin-erdogan-msc-thesis.aux
+ : \bibdata
+ :         {aytekin-erdogan-msc-thesis}
+I'm skipping whatever remains of this command
+Database file #1: aytekin-erdogan-msc-thesis.bib
+You've used 70 entries,
+            1876 wiz_defined-function locations,
+            857 strings with 17799 characters,
+and the built_in function-call counts, 24179 in all, are:
+= -- 2388
+> -- 1109
+< -- 0
++ -- 393
+- -- 323
+* -- 1757
+:= -- 3322
+add.period$ -- 70
+call.type$ -- 70
+change.case$ -- 70
+chr.to.int$ -- 0
+cite$ -- 70
+duplicate$ -- 1255
+empty$ -- 2058
+format.name$ -- 323
+if$ -- 5889
+int.to.chr$ -- 0
+int.to.str$ -- 70
+missing$ -- 70
+newline$ -- 213
+num.names$ -- 70
+pop$ -- 218
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 989
+stack$ -- 0
+substring$ -- 1814
+swap$ -- 636
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 231
+width$ -- 72
+write$ -- 698
+(There was 1 error message)

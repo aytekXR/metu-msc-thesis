@@ -32,6 +32,11 @@ K.~He, D.~Zhou, X.~Zhang, R.~Nie, Q.~Wang, and X.~Jin, ``Infrared and visible
   transform domain,'' {\em Journal of Applied Remote Sensing}, vol.~11, no.~1,
   pp.~015011--015011, 2017.
 
+\bibitem{liu2012robust}
+G.~Liu, Z.~Lin, S.~Yan, J.~Sun, Y.~Yu, and Y.~Ma, ``Robust recovery of subspace
+  structures by low-rank representation,'' {\em IEEE transactions on pattern
+  analysis and machine intelligence}, vol.~35, no.~1, pp.~171--184, 2012.
+
 \bibitem{liu2018infrared}
 Y.~Liu, X.~Chen, J.~Cheng, H.~Peng, and Z.~Wang, ``Infrared and visible image
   fusion with convolutional neural networks,'' {\em International Journal of
