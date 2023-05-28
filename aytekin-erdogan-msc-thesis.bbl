@@ -364,4 +364,76 @@ L.~Qu, S.~Liu, M.~Wang, S.~Li, S.~Yin, Q.~Qiao, and Z.~Song, ``Transfuse: A
   unified transformer-based image fusion framework using self-supervised
   learning,'' {\em arXiv preprint arXiv:2201.07451}, 2022.
 
+\bibitem{wang2022unsupervised}
+D.~Wang, J.~Liu, X.~Fan, and R.~Liu, ``Unsupervised misaligned infrared and
+  visible image fusion via cross-modality image generation and registration,''
+  {\em arXiv preprint arXiv:2205.11876}, 2022.
+
+\bibitem{xu2021classification}
+H.~Xu, H.~Zhang, and J.~Ma, ``Classification saliency-based rule for visible
+  and infrared image fusion,'' {\em IEEE Transactions on Computational
+  Imaging}, vol.~7, pp.~824--836, 2021.
+
+\bibitem{jian2021infrared}
+L.~Jian, R.~Rayhana, L.~Ma, S.~Wu, Z.~Liu, and H.~Jiang, ``Infrared and visible
+  image fusion based on deep decomposition network and saliency analysis,''
+  {\em IEEE Transactions on Multimedia}, vol.~24, pp.~3314--3326, 2021.
+
+\bibitem{petro2014multiscale}
+A.~B. Petro, C.~Sbert, and J.-M. Morel, ``Multiscale retinex,'' {\em Image
+  Processing On Line}, pp.~71--88, 2014.
+
+\bibitem{zhang2020ifcnn}
+Y.~Zhang, Y.~Liu, P.~Sun, H.~Yan, X.~Zhao, and L.~Zhang, ``Ifcnn: A general
+  image fusion framework based on convolutional neural network,'' {\em
+  Information Fusion}, vol.~54, pp.~99--118, 2020.
+
+\bibitem{wang2019generative}
+M.~Wang, X.~Liu, and H.~Jin, ``A generative image fusion approach based on
+  supervised deep convolution network driven by weighted gradient flow,'' {\em
+  Image and Vision Computing}, vol.~86, pp.~1--16, 2019.
+
+\bibitem{feng2020fully}
+Y.~Feng, H.~Lu, J.~Bai, L.~Cao, and H.~Yin, ``Fully convolutional network-based
+  infrared and visible image fusion,'' {\em Multimedia Tools and Applications},
+  vol.~79, no.~21-22, pp.~15001--15014, 2020.
+
+\bibitem{luo2021ifsepr}
+X.~Luo, Y.~Gao, A.~Wang, Z.~Zhang, and X.-J. Wu, ``Ifsepr: A general framework
+  for image fusion based on separate representation learning,'' {\em IEEE
+  Transactions on Multimedia}, 2021.
+
+\bibitem{zhu2022iplf}
+D.~Zhu, W.~Zhan, Y.~Jiang, X.~Xu, and R.~Guo, ``Iplf: A novel image pair
+  learning fusion network for infrared and visible image,'' {\em IEEE Sensors
+  Journal}, vol.~22, no.~9, pp.~8808--8817, 2022.
+
+\bibitem{ma2021stdfusionnet}
+J.~Ma, L.~Tang, M.~Xu, H.~Zhang, and G.~Xiao, ``Stdfusionnet: An infrared and
+  visible image fusion network based on salient target detection,'' {\em IEEE
+  Transactions on Instrumentation and Measurement}, vol.~70, pp.~1--13, 2021.
+
+\bibitem{shopovska2019deep}
+I.~Shopovska, L.~Jovanov, and W.~Philips, ``Deep visible and thermal image
+  fusion for enhanced pedestrian visibility,'' {\em Sensors}, vol.~19, no.~17,
+  p.~3727, 2019.
+
+\bibitem{tang2022image}
+L.~Tang, J.~Yuan, and J.~Ma, ``Image fusion in the loop of high-level vision
+  tasks: A semantic-aware real-time infrared and visible image fusion
+  network,'' {\em Information Fusion}, vol.~82, pp.~28--42, 2022.
+
+\bibitem{liu2022target}
+J.~Liu, X.~Fan, Z.~Huang, G.~Wu, R.~Liu, W.~Zhong, and Z.~Luo, ``Target-aware
+  dual adversarial learning and a multi-scenario multi-modality benchmark to
+  fuse infrared and visible for object detection,'' in {\em Proceedings of the
+  IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pp.~5802--5811, 2022.
+
+\bibitem{luo2021latraivf}
+X.~Luo, A.~Wang, Z.~Zhang, X.~Xiang, and X.-J. Wu, ``Latraivf: An infrared and
+  visible image fusion method based on latent regression and adversarial
+  training,'' {\em IEEE Transactions on Instrumentation and Measurement},
+  vol.~70, pp.~1--16, 2021.
+
 \end{thebibliography}

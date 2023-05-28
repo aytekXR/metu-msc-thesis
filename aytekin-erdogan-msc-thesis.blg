@@ -7,45 +7,53 @@ Repeated entry---line 679 of file aytekin-erdogan-msc-thesis.bib
  : @inproceedings{zhao2021dndt
  :                            ,
 I'm skipping whatever remains of this entry
-You've used 70 entries,
+Repeated entry---line 723 of file aytekin-erdogan-msc-thesis.bib
+ : @article{ma2020ganmcc
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 743 of file aytekin-erdogan-msc-thesis.bib
+ : @article{liu2018infrared
+ :                         ,
+I'm skipping whatever remains of this entry
+You've used 84 entries,
             1876 wiz_defined-function locations,
-            857 strings with 17799 characters,
-and the built_in function-call counts, 24179 in all, are:
-= -- 2388
-> -- 1109
+            919 strings with 20489 characters,
+and the built_in function-call counts, 28690 in all, are:
+= -- 2830
+> -- 1326
 < -- 0
-+ -- 393
-- -- 323
-* -- 1757
-:= -- 3322
-add.period$ -- 70
-call.type$ -- 70
-change.case$ -- 70
++ -- 470
+- -- 386
+* -- 2102
+:= -- 3965
+add.period$ -- 84
+call.type$ -- 84
+change.case$ -- 84
 chr.to.int$ -- 0
-cite$ -- 70
-duplicate$ -- 1255
-empty$ -- 2058
-format.name$ -- 323
-if$ -- 5889
+cite$ -- 84
+duplicate$ -- 1473
+empty$ -- 2443
+format.name$ -- 386
+if$ -- 6972
 int.to.chr$ -- 0
-int.to.str$ -- 70
-missing$ -- 70
-newline$ -- 213
-num.names$ -- 70
-pop$ -- 218
+int.to.str$ -- 84
+missing$ -- 84
+newline$ -- 255
+num.names$ -- 84
+pop$ -- 254
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 989
+skip$ -- 1147
 stack$ -- 0
-substring$ -- 1814
-swap$ -- 636
+substring$ -- 2154
+swap$ -- 738
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 231
-width$ -- 72
-write$ -- 698
-(There was 1 error message)
+while$ -- 279
+width$ -- 86
+write$ -- 835
+(There were 3 error messages)
