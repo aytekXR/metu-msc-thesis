@@ -2,11 +2,11 @@ This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: aytekin-erdogan-msc-thesis.aux
 The style file: ieeetr.bst
-Illegal, another \bibdata command---line 243 of file aytekin-erdogan-msc-thesis.aux
- : \bibdata
- :         {aytekin-erdogan-msc-thesis}
-I'm skipping whatever remains of this command
 Database file #1: aytekin-erdogan-msc-thesis.bib
+Repeated entry---line 679 of file aytekin-erdogan-msc-thesis.bib
+ : @inproceedings{zhao2021dndt
+ :                            ,
+I'm skipping whatever remains of this entry
 You've used 70 entries,
             1876 wiz_defined-function locations,
             857 strings with 17799 characters,
