@@ -520,7 +520,7 @@ original to this work.}
 }
 \def\endthebibliography{\endlist}
 
-\let\endthebibliography=\endlist
+%\let\endthebibliography=\endlist
 
 \newif\if@restonecol
 \def\theindex{\@restonecoltrue\if@twocolumn\@restonecolfalse\fi
@@ -794,7 +794,7 @@ to\hsize{\hfil\box\@tempboxa\hfil}
  \vbox{\parbox{14.25cm}{\bf
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\@datelabel:
  %\hfill \rule{3cm}{1pt}}}
- ~~~28.08.2019}} % Change this
+ ~~~28.07.2023}} % Change this
 \end{approvalpage}
 
 \newpage\null\thispagestyle{empty}\newpage
