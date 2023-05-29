@@ -374,10 +374,22 @@ H.~Xu, H.~Zhang, and J.~Ma, ``Classification saliency-based rule for visible
   and infrared image fusion,'' {\em IEEE Transactions on Computational
   Imaging}, vol.~7, pp.~824--836, 2021.
 
+\bibitem{patel2020approach}
+H.~Patel, K.~Prajapati, V.~Chudasama, and K.~P. Upla, ``An approach for fusion
+  of thermal and visible images,'' in {\em Emerging Technology Trends in
+  Electronics, Communication and Networking: Third International Conference,
+  ET2ECN 2020, Surat, India, February 7--8, 2020, Revised Selected Papers 3},
+  pp.~225--234, Springer, 2020.
+
 \bibitem{jian2021infrared}
 L.~Jian, R.~Rayhana, L.~Ma, S.~Wu, Z.~Liu, and H.~Jiang, ``Infrared and visible
   image fusion based on deep decomposition network and saliency analysis,''
   {\em IEEE Transactions on Multimedia}, vol.~24, pp.~3314--3326, 2021.
+
+\bibitem{li2021rfn}
+H.~Li, X.-J. Wu, and J.~Kittler, ``Rfn-nest: An end-to-end residual fusion
+  network for infrared and visible images,'' {\em Information Fusion}, vol.~73,
+  pp.~72--86, 2021.
 
 \bibitem{petro2014multiscale}
 A.~B. Petro, C.~Sbert, and J.-M. Morel, ``Multiscale retinex,'' {\em Image
@@ -435,5 +447,68 @@ X.~Luo, A.~Wang, Z.~Zhang, X.~Xiang, and X.-J. Wu, ``Latraivf: An infrared and
   visible image fusion method based on latent regression and adversarial
   training,'' {\em IEEE Transactions on Instrumentation and Measurement},
   vol.~70, pp.~1--16, 2021.
+
+\bibitem{toet2014tno}
+A.~Toet {\em et~al.}, ``Tno image fusion dataset< https://figshare.
+  com/articles,'' {\em TN\_Image\_Fusion\_Dataset/1008029}, 2014.
+
+\bibitem{inodataset}
+``Ino videos analytics dataset,'' 2016.
+\newblock Accessed on May 29, 2023.
+
+\bibitem{ha2017mfnet}
+Q.~Ha, K.~Watanabe, T.~Karasawa, Y.~Ushiku, and T.~Harada, ``Mfnet: Towards
+  real-time semantic segmentation for autonomous vehicles with multi-spectral
+  scenes,'' in {\em 2017 IEEE/RSJ International Conference on Intelligent
+  Robots and Systems (IROS)}, pp.~5108--5115, IEEE, 2017.
+
+\bibitem{xu2020fusiondn}
+H.~Xu, J.~Ma, Z.~Le, J.~Jiang, and X.~Guo, ``Fusiondn: A unified densely
+  connected network for image fusion,'' in {\em Proceedings of the AAAI
+  conference on artificial intelligence}, vol.~34, pp.~12484--12491, 2020.
+
+\bibitem{zhang2020vifb}
+X.~Zhang, P.~Ye, and G.~Xiao, ``Vifb: A visible and infrared image fusion
+  benchmark,'' in {\em Proceedings of the IEEE/CVF Conference on Computer
+  Vision and Pattern Recognition Workshops}, pp.~104--105, 2020.
+
+\bibitem{jia2021llvip}
+X.~Jia, C.~Zhu, M.~Li, W.~Tang, and W.~Zhou, ``Llvip: A visible-infrared paired
+  dataset for low-light vision,'' in {\em Proceedings of the IEEE/CVF
+  International Conference on Computer Vision}, pp.~3496--3504, 2021.
+
+\bibitem{peibei2021debiased}
+C.~Peibei, W.~Zhangyang, and M.~Kede, ``Debiased subjective assessment of
+  real-world image enhancement,'' {\em arXiv preprint arXiv:2106.10080}, 2021.
+
+\bibitem{bulanon2009image}
+D.~Bulanon, T.~Burks, and V.~Alchanatis, ``Image fusion of visible and thermal
+  images for fruit detection,'' {\em Biosystems engineering}, vol.~103, no.~1,
+  pp.~12--22, 2009.
+
+\bibitem{eskicioglu1995image}
+A.~M. Eskicioglu and P.~S. Fisher, ``Image quality measures and their
+  performance,'' {\em IEEE Transactions on communications}, vol.~43, no.~12,
+  pp.~2959--2965, 1995.
+
+\bibitem{hossny2008comments}
+M.~Hossny, S.~Nahavandi, and D.~Creighton, ``Comments on'information measure
+  for performance of image fusion','' 2008.
+
+\bibitem{zhang2021deep}
+X.~Zhang, ``Deep learning-based multi-focus image fusion: A survey and a
+  comparative study,'' {\em IEEE Transactions on Pattern Analysis and Machine
+  Intelligence}, vol.~44, no.~9, pp.~4819--4838, 2021.
+
+\bibitem{liu2011objective}
+Z.~Liu, E.~Blasch, Z.~Xue, J.~Zhao, R.~Laganiere, and W.~Wu, ``Objective
+  assessment of multiresolution image fusion algorithms for context enhancement
+  in night vision: a comparative study,'' {\em IEEE transactions on pattern
+  analysis and machine intelligence}, vol.~34, no.~1, pp.~94--109, 2011.
+
+\bibitem{ma2019infrared}
+J.~Ma, Y.~Ma, and C.~Li, ``Infrared and visible image fusion methods and
+  applications: A survey,'' {\em Information Fusion}, vol.~45, pp.~153--178,
+  2019.
 
 \end{thebibliography}

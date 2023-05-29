@@ -15,45 +15,71 @@ Repeated entry---line 743 of file aytekin-erdogan-msc-thesis.bib
  : @article{liu2018infrared
  :                         ,
 I'm skipping whatever remains of this entry
-You've used 84 entries,
+Repeated entry---line 852 of file aytekin-erdogan-msc-thesis.bib
+ : @article{zhao2021efficient
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 863 of file aytekin-erdogan-msc-thesis.bib
+ : @article{li2019infrared
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 890 of file aytekin-erdogan-msc-thesis.bib
+ : @article{toet2014tno
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 897 of file aytekin-erdogan-msc-thesis.bib
+ : @misc{toet2014tno
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 983 of file aytekin-erdogan-msc-thesis.bib
+ : @inproceedings{zhang2020vifb
+ :                             ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "pupground"
+Warning--I didn't find a database entry for "altlabels"
+Warning--I didn't find a database entry for "unsupdata"
+Warning--I didn't find a database entry for "transferlearning"
+Warning--can't use both volume and number fields in xu2020fusiondn
+Warning--empty journal in hossny2008comments
+You've used 99 entries,
             1876 wiz_defined-function locations,
-            919 strings with 20489 characters,
-and the built_in function-call counts, 28690 in all, are:
-= -- 2830
-> -- 1326
+            1000 strings with 23277 characters,
+and the built_in function-call counts, 33355 in all, are:
+= -- 3301
+> -- 1498
 < -- 0
-+ -- 470
-- -- 386
-* -- 2102
-:= -- 3965
-add.period$ -- 84
-call.type$ -- 84
-change.case$ -- 84
++ -- 533
+- -- 434
+* -- 2430
+:= -- 4584
+add.period$ -- 100
+call.type$ -- 99
+change.case$ -- 99
 chr.to.int$ -- 0
-cite$ -- 84
-duplicate$ -- 1473
-empty$ -- 2443
-format.name$ -- 386
-if$ -- 6972
+cite$ -- 101
+duplicate$ -- 1716
+empty$ -- 2887
+format.name$ -- 434
+if$ -- 8117
 int.to.chr$ -- 0
-int.to.str$ -- 84
-missing$ -- 84
-newline$ -- 255
-num.names$ -- 84
-pop$ -- 254
+int.to.str$ -- 99
+missing$ -- 98
+newline$ -- 301
+num.names$ -- 98
+pop$ -- 315
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1147
+skip$ -- 1324
 stack$ -- 0
-substring$ -- 2154
-swap$ -- 738
+substring$ -- 2533
+swap$ -- 846
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 279
-width$ -- 86
-write$ -- 835
-(There were 3 error messages)
+warning$ -- 2
+while$ -- 326
+width$ -- 101
+write$ -- 978
+(There were 8 error messages)
