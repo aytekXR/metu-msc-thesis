@@ -1,8 +1,5 @@
 \chapter{Related Work}
-\label{chp:b2}
-
-\chapter{Related Work}
-\label{chp:02bgwork}
+\label{chp:RelatedWork}
 
 Image fusion algorithms can be categorized based on several factors, including whether they employ learning methods or hand-crafted steps, based on predefined loss functions, and whether labeled datasets are involved in the process. Learning-based methods involve the use of machine learning techniques, such as CNN, GAN, Transformers, Auto-encoders, to learn the features and relationships between input images. In contrast, hand-crafted approaches involve the manual selection and design of specific features and fusion rules.Whether a methods is end-to-end is defined as do they require one or more handcrafted steps. Loss functions are commonly used in learning-based methods to measure the quality of the fused image and to guide the training process. Based on the loss function, the process can be classified as self-supervised, supervised or unsupervised. Finally, labeled datasets can be used to train learning-based methods, where the some form of label is available and ground-truth labels are known, or for evaluating the performance of fusion algorithms. By considering these factors, researchers can select the most appropriate image fusion algorithm for their specific application requirements.
 
@@ -59,10 +56,12 @@ In the context of infrared visual image fusion, the autoencoder technique is lev
 There are still open research questions for this part since rgb and infrared images are different in structure and only rgb image is used in autoencoder's training. There are studies that focuses on this difference. IVFENet \cite{zhao2021self}, an encoder and two decoders are used in the pretraining stage to alleviate the vital information loss. Liu et al. \cite{liu2021smoa} use two encoders and one unified decoder, which utilizes a NAS technique for the model. Measures for performance increase in Section \ref{subsec:unsupervised} are also used with autoencoder based models such as dense connections \cite{pan2021densenetfuse, wang2021unfusion, li2022infrared}, attention mechanism \cite{wang2021unfusion}, multiscale features \cite{li2019infrared,wang2021unfusion}, multi-level features \cite{peng2022mfdetection}.
 
 \section{GAN Based Deep Learning Algorithms}
+\label{sec:GAN}
 
 Since its introduction by Goodfellow et al. \cite{goodfellow2014generative} in 2014, General Adversarial Networks, also known as GAN, have found a wide range of applications. In 2019, Ma et al. \cite{ma2019fusiongan} introduced GAN to the image fusion task, after which many GAN-based image fusion methods have been proposed. Typically, these methods are unsupervised and utilize various combinations of one-generator-to-one-discriminator, one-generator-to-more-discriminators, and two-generators-to-two-discriminators. Additionally, some supervised versions of GAN-based image fusion methods have been developed.
 
 \subsection{Unsupervised GANs}
+\label{subsec:uGAN}
 
 Most of the GAN-based VIF methods are unsupervised methods, which means that they do not require labeled data for training. Instead, the training process is driven by a loss function that measures the difference between the fused image and the source images. This loss function typically contains several terms that reflect the difference from different perspectives. For example, one term may measure the pixel-wise difference between the fused image and the source images, while another term may measure the structural similarity between the fused image and the source images.
 
@@ -79,10 +78,12 @@ The previously mentioned methods utilize original visible and infrared images as
 To address the limitations of considering a single source image in the discriminator, researchers have extended GAN-based methods to incorporate two or more discriminators, aiming to preserve features from both source images. For instance, Xu et al. proposed DDcGAN, a VIF method with two discriminators that can fuse source images of different resolutions \cite{xu2019learning}. Ma et al. further extended this method by using a densely connected CNN in the generator, taking the image itself as input in the discriminator, and employing a deconvolution layer for upsampling the infrared image \cite{ma2020ddcgan}. Other researchers also recognized the benefits of employing multiple discriminators. Li et al. developed unsupervised GAN-based VIF methods with one generator and two discriminators, such as MD-WGAN, D2WGAN, and MgAN-Fuse \cite{li2019infrared, li2020infrared, li2020multigrained}. These methods introduced various improvements, including the use of texture loss, Wasserstein distance, multiscale attention, and separate encoders for visible and infrared images. Li et al. also proposed AttentionFGAN, incorporating multiscale attention mechanisms in the generator and discriminators \cite{li2020attentionfgan}. Additionally, Zhang et al. utilized a full-scale skip connection-based generator and two Markovian discriminators to retain useful information from both visible and infrared source images \cite{zhang2021gan}. Song et al. recently introduced a VIF method with one generator and three discriminators, including a difference image discriminator \cite{song2022triple}. These advancements involving multiple discriminators aim to enhance the fusion process and consider various aspects of the input images.
 
 \subsection{Supervised GANs}
+\label{subsec:sGAN}
 
 In the context of supervised GAN-based methods, similar to the supervised CNN methods discussed in Section \ref{subsec:supervised}, there are several approaches that utilize different types of ground truth. The first type involves using fused images generated by other methods as the reference. Lebedev et al. \cite{lebedev2019multisensor} proposed a method with one generator and one discriminator, where fused images obtained through the Laplacian pyramid algorithm accompanied by MultiScale Retinex served as the ground truth. Another approach, RCGAN, introduced by Li et al.\cite{li2019coupled}, is based on coupled GAN and features two generators and two discriminators. Notably, RCGAN incorporates pre-fused images generated by GFF \cite{li2013image} for optimization within the coupled generators. However, it is important to consider that the performance of RCGAN can be influenced by the specific method used to generate the pre-fused images.
 
 \section{Transformer Based Deep Learning Algorithms}
+\label{sec:Transformer}
 
 Transformers have emerged as versatile tools capable of handling long-range dependencies in diverse domains, including natural language processing and computer vision tasks \cite{dosovitskiy2020image, liu2021swin, liu2022mfst}. Their entry into the realm of image fusion in 2021 has opened up exciting prospects for advancing image fusion techniques such as \cite{zhao2021dndt, rao2023tgfuse, li2022cgtf, tang2022ydtr, wang2022swinfuse, yang2023dglt, tang2023tccfusion}. By harnessing the capabilities of transformers, a range of transformer-based methods have been developed to enhance various aspects of image fusion, encompassing both general fusion scenarios \cite{vs2022image}, \cite{fu2021ppt}, \cite{ma2022swinfusion}, \cite{qu2022transfuse}. These methods capitalize on transformers' inherent ability to capture contextual relationships and dependencies across different regions within images, enabling a more comprehensive fusion of visual information. Leveraging the self-attention mechanism, these methods effectively model interactions between pixels or patches, facilitating the fusion of relevant features while preserving crucial details. In short, the integration of transformers into the field of image fusion has sparked notable advancements, empowering the creation of transformer-based methods for image fusion applications. Leveraging transformers' prowess in capturing long-range dependencies and contextual information, these methods pave the way for more sophisticated and accurate fusion of visual data, elevating the possibilities in the field of image fusion.
 
@@ -98,6 +99,8 @@ The architectural diversity among transformer-based methods reflects the flexibi
 It is noteworthy that existing transformer-based VIF methods operate in an unsupervised manner. This means that they do not rely on explicit ground truth labels during training. Instead, the loss function is derived from the comparison between the fused image and the source images themselves. This unsupervised nature presents both advantages and challenges. On one hand, it enables the methods to be applicable to a wide range of scenarios without the need for annotated training data. On the other hand, it poses difficulties in evaluating and objectively comparing different methods, as there is no direct reference for the quality of the fusion output. As researchers delve deeper into transformer-based image fusion, there is ongoing exploration of novel architectural designs and techniques. This includes investigating the integration of transformers at different stages of the fusion pipeline, exploring variations in the combination of transformers and CNNs, and exploring the potential of leveraging additional information or guidance to further enhance the fusion process. By pushing the boundaries of transformer-based methods and continually refining their designs, researchers strive to improve the quality and accuracy of fused images, advancing the field of image fusion across diverse domains and applications.
 
 \section{Dataset Usage}
+\label{sec:Dataset}
+
 
 In the image fusion task, addressing the lack of ground truth is a crucial challenge faced in the development of supervised VIF methods, as discussed in Section \ref{subsec:supervised} and Section \ref{subsec:unsupervised}. Unavailability of reliable ground truth data has led to the prevalence of unsupervised approaches in deep learning-based VIF methods. However, researchers have shown resilience in tackling this challenge by exploring alternative methods to generate pseudo ground truth and utilizing different forms of labels to facilitate supervised training in the image fusion domain.
 
@@ -118,6 +121,7 @@ Furthermore, a hybrid strategy combines visible images with visible-infrared ima
 Lastly, transfer learning emerges as a viable solution to address the scarcity of training data. By utilizing pre-trained models trained on large-scale RGB datasets, the models can acquire generic visual representations that can be adapted and fine-tuned for the task of VIF, as discussed in Section \ref{subsec:supervised}. This approach offers a practical and effective way to overcome the limitations of limited available training data. Overall, these diverse training data strategies enable unsupervised VIF methods to learn from different sources of information and exploit inherent correlations, leading to enhanced fusion performance.
 
 \subsection{Methods to Create Labeled Dataset}
+\label{subsec:DatasetM}
 
 Addressing the lack of ground truth in the image fusion task has been approached through various methods, each with its own advantages and considerations.
 
@@ -134,6 +138,7 @@ Lastly, the Y channel of RGB images in the YCbCr color space can be used as a fo
 In summary, researchers have adopted diverse methods to overcome the absence of ground truth in image fusion tasks. These methods include using fused images from other techniques, clear images and their blurred versions, manually-labeled object masks, labels from downstream applications, or synthetic images. Each approach has its own advantages and considerations, providing alternative means to enable supervised training and enhance the performance of image fusion algorithms.
 
 \subsection{Test Datasets}
+\label{subsec:Test}
 
 A variety of datasets, including TNO \cite{toet2014tno}, INO \cite{inodataset}, MFNet \cite{ha2017mfnet}, RoadScene \cite{xu2020fusiondn}, VIFB \cite{zhang2020vifb}, LLVIP \cite{jia2021llvip}, and M3FD \cite{liu2022target}], have been utilized in the image fusion domain to evaluate the performance of fusion algorithms. These datasets serve as test sets, providing diverse scenarios and imaging conditions for researchers to assess the effectiveness and robustness of their proposed methods. It is worth noting that some studies also utilize these datasets for training their fusion models, aiming to achieve consistency and reproducibility in their results.
 
@@ -142,6 +147,7 @@ In contrast to well-established computer vision tasks like object tracking and d
 The absence of a standardized test set in image fusion necessitates careful consideration and rigorous validation of proposed fusion methods. Researchers must ensure that their approaches not only perform well on specific datasets but also demonstrate generalization capabilities across various scenarios and imaging conditions. By addressing this challenge, the image fusion community can establish a more standardized and benchmarked evaluation framework, facilitating fair comparisons and driving further advancements in the field.
 
 \section{Performance Evaluation and Benchmarking}
+\label{sec:Performance}
 
 Evaluating the performance of visual image fusion methods is a challenging task primarily due to the absence of ground truth. Existing studies employ a combination of qualitative and quantitative evaluation techniques to assess the effectiveness of these methods.
 
@@ -152,14 +158,17 @@ Quantitative evaluation, on the other hand, involves the use of image fusion eva
 It should be noted that both qualitative and quantitative evaluation approaches have their limitations. Qualitative evaluation heavily relies on subjective judgments, which can introduce bias and inconsistency. On the other hand, quantitative evaluation metrics may not capture all aspects of human perception and may not fully represent the desired fusion objectives. Overall, the evaluation of VIF methods requires a careful combination of qualitative and quantitative techniques to gain a comprehensive understanding of their performance. By utilizing these evaluation approaches, researchers can assess the visual quality and quantify the effectiveness of the fusion methods, contributing to advancements in the field of visual image fusion.
 
 \section{Qualitative Analysis}
+\label{subsec:Qualitative}
 
 Qualitative evaluation involves visually examining and assessing the quality of fused images. It typically involves checking if the fused image retains the texture details from the visible image and preserves the salient features of the infrared image. Qualitative evaluation is an important aspect of evaluating fusion methods and is commonly used in research papers. However, it is a manual and time-consuming process. With a large number of fused images to evaluate, it becomes impractical to manually inspect each one. To address this, researchers often select a few examples for comparison, but this approach may introduce sampling bias, which is a common problem in image enhancement tasks. Furthermore, different evaluators may have varying criteria when assessing the fused images, leading to subjective bias. Currently, there is no widely accepted solution to overcome these challenges \cite{peibei2021debiased}.
 
 \section{Quantitative Evaluation}
+\label{subsec:Quantitative}
 
 Quantitative evaluation means that the quality of fused images is checked using image fusion evaluation metrics. Many evaluation metrics, such as cross entropy (CE) \cite{bulanon2009image}, spatial frequency (SF) \cite{eskicioglu1995image}, and normalized mutual information (NMI) \cite{hossny2008comments}, have been proposed. However, there is not a well-recognized metric that has been used in most VIF studies. Moreover, each metric usually partially evaluates the quality of fused images from one aspect or very limited aspects. This results in a significant issue that different metrics may be used in different VIF studies. Moreover, in existing VIF literature, different test sets are also used. Therefore, it is pretty difficult to compare the performance of VIF methods fairly \cite{bulanon2009image, eskicioglu1995image, hossny2008comments}.
 
 \section{Benchmarking}
+\label{subsec:Benchmarking}
 
 VIFB, introduced by Zhang et al. \cite{zhang2020vifb}, has emerged as a crucial milestone in the field of infrared and visual image fusion by providing a benchmark dataset and evaluation framework. This benchmark comprises a collection of 21 visible-infrared image pairs, encompassing various scenarios and challenges commonly encountered in VIF applications. Additionally, VIFB incorporates a diverse set of 20 state-of-the-art VIF methods, offering a comprehensive range of fusion techniques for comparison.
 
@@ -172,5 +181,6 @@ As the evaluation of VIF methods remains an active area of investigation, resear
 In summary, VIFB serves as a valuable resource for the VIF community, providing a standardized benchmark dataset, evaluation metrics, and fusion results. It paves the way for advancements in evaluating and comparing different VIF methods, ultimately driving the development of more effective and reliable image fusion techniques in various application domains.
 
 \section{Recent Research Trend}
+\label{sec:Recent}
 
 Shall I write this part?
